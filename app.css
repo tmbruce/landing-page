@@ -33,11 +33,11 @@ nav {
   margin: auto;
 }
 
-li {
+.links li {
   margin-right: 1.8rem;
 }
 
-li:last-child {
+.links li:last-child {
   margin-right: 0px;
 }
 
@@ -56,16 +56,16 @@ h1 {
 .placeholder {
   background-color: #6e747c;
   height: 18rem;
-  width: 50%;
+  width: 55%;
   font-size: 1.5rem;
   color: #e5e7eb;
+  display: flex;
   justify-content: center;
   align-items: center;
-  display: flex;
 }
 
 .hero-content {
-  width: 50%;
+  width: 45%;
   padding-right: 4rem;
 }
 
@@ -93,6 +93,52 @@ section > h2 {
 }
 
 .info-section {
+  text-align: center;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  padding-bottom: 8rem;
+}
+
+.info-container {
+  width: 65%;
+  display: flex;
+  align-self: center;
+  justify-content: space-evenly;
+}
+
+.box {
+  height: 12.5rem;
+  width: 12.5rem;
+  border: 0.35rem solid #3882f6;
+  border-radius: 1.25rem;
+}
+
+.info-set {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-set p {
+  padding-top: 1rem;
+  width: 12rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #76787a;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  display: flex;
+}
+
+.quote p {
+  font-size: 3rem;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.quote-container {
+  width: 70%;
 }
