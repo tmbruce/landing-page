@@ -10,8 +10,8 @@ nav {
 .header-logo {
   text-decoration: none;
   color: #f9faf8;
-  font-size: 1.85rem;
-  padding: 1.5rem 0;
+  font-size: 32px;
+  padding: 18px 0;
   font-weight: 700;
 }
 
@@ -19,12 +19,17 @@ nav {
   display: flex;
 }
 
-.links {
+.nav-item {
+  text-decoration: none;
   color: #e5e7eb;
   font-weight: 300;
-  font-size: 1.4rem;
+  font-size: 24px;
 }
 
+.nav-item:hover {
+  color: white;
+  transition: 200ms;
+}
 .container {
   width: 70%;
   display: flex;
@@ -34,7 +39,7 @@ nav {
 }
 
 .links li {
-  margin-right: 1.8rem;
+  margin-right: 24px;
 }
 
 .links li:last-child {
@@ -43,21 +48,21 @@ nav {
 
 h1 {
   color: #f9faf8;
-  font-size: 4rem;
+  font-size: 56px;
   font-weight: 700;
-  line-height: 4rem;
+  line-height: 56px;
 }
 
 .hero {
   background-color: #1f2937;
-  padding: 9rem 0;
+  padding: 150px 0;
 }
 
 .placeholder {
   background-color: #6e747c;
-  height: 18rem;
+  height: 300px;
   width: 55%;
-  font-size: 1.5rem;
+  font-size: 24px;
   color: #e5e7eb;
   display: flex;
   justify-content: center;
@@ -66,30 +71,30 @@ h1 {
 
 .hero-content {
   width: 45%;
-  padding-right: 4rem;
+  padding-right: 50px;
 }
 
 .hero-button {
   background-color: #3882f6;
   color: #f9faf8;
-  font-size: 1.3rem;
+  font-size: 24px;
   font-weight: 400;
   border-style: none;
-  padding: 0.7rem 2.5rem;
+  padding: 10px 40px;
   border-radius: 0.8rem;
 }
 
 div.hero-content > p {
-  color: #e5e7eb;
-  font-size: 1.4rem;
-  padding: 1rem 0;
-  line-height: 1.8rem;
+  color: #afb1b4;
+  font-size: 22px;
+  padding: 18px 0;
+  line-height: 24px;
 }
 
 section > h2 {
-  font-size: 3rem;
+  font-size: 48px;
   font-weight: 700;
-  margin: 4rem 0;
+  margin: 56px 0;
 }
 
 .info-section {
@@ -97,7 +102,7 @@ section > h2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-bottom: 9rem;
+  padding-bottom: 175px;
 }
 
 .info-container {
@@ -108,10 +113,10 @@ section > h2 {
 }
 
 .box {
-  height: 12.5rem;
-  width: 12.5rem;
-  border: 0.35rem solid #3882f6;
-  border-radius: 1.25rem;
+  height: 200px;
+  width: 200px;
+  border: 5px solid #3882f6;
+  border-radius: 18px;
 }
 
 .info-set {
@@ -121,9 +126,9 @@ section > h2 {
 }
 
 .info-set p {
-  padding-top: 1rem;
-  width: 12rem;
-  font-size: 1.3rem;
+  padding-top: 18px;
+  width: 200px;
+  font-size: 22px;
   font-weight: 400;
   color: #76787a;
 }
@@ -133,7 +138,7 @@ section > h2 {
 }
 
 .quote p {
-  font-size: 3rem;
+  font-size: 48px;
   font-style: italic;
   font-weight: 700;
 }
@@ -145,24 +150,13 @@ section > h2 {
 
 .quote-content {
   width: 60%;
-  margin: 10rem 0;
+  margin: 150px 0;
 }
 
 cite {
   display: block;
   text-align: right;
-  padding-right: 5rem;
-  font-size: 2rem;
+  padding-right: 70px;
+  font-size: 36px;
   font-weight: 700;
 }
-/* .quote p {
-  display: flex;
-  justify-content: center;
-  font-size: 3rem;
-  font-style: italic;
-  font-weight: 400;
-}
-
-.quote-container {
-  width: 60%;
-} */
