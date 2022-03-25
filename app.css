@@ -10,7 +10,7 @@ nav {
 .header-logo {
   text-decoration: none;
   color: #f9faf8;
-  font-size: 32px;
+  font-size: 24px;
   padding: 18px 0;
   font-weight: 700;
 }
@@ -23,7 +23,7 @@ nav {
   text-decoration: none;
   color: #e5e7eb;
   font-weight: 300;
-  font-size: 24px;
+  font-size: 18px;
 }
 
 .nav-item:hover {
@@ -48,21 +48,21 @@ nav {
 
 h1 {
   color: #f9faf8;
-  font-size: 56px;
+  font-size: 44px;
   font-weight: 700;
-  line-height: 56px;
+  line-height: 44px;
 }
 
 .hero {
   background-color: #1f2937;
-  padding: 150px 0;
+  padding: 100px 0;
 }
 
 .placeholder {
   background-color: #6e747c;
-  height: 300px;
+  height: 240px;
   width: 55%;
-  font-size: 24px;
+  font-size: 18px;
   color: #e5e7eb;
   display: flex;
   justify-content: center;
@@ -77,22 +77,23 @@ h1 {
 .hero-button {
   background-color: #3882f6;
   color: #f9faf8;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 400;
   border-style: none;
   padding: 10px 40px;
-  border-radius: 0.8rem;
+  border-radius: 8px;
 }
 
 div.hero-content > p {
   color: #afb1b4;
-  font-size: 22px;
-  padding: 18px 0;
-  line-height: 24px;
+  font-size: 18px;
+  padding-top: 22px;
+  padding-bottom: 32px;
+  line-height: 20px;
 }
 
 section > h2 {
-  font-size: 48px;
+  font-size: 36px;
   font-weight: 700;
   margin: 56px 0;
 }
@@ -113,9 +114,9 @@ section > h2 {
 }
 
 .box {
-  height: 200px;
-  width: 200px;
-  border: 5px solid #3882f6;
+  height: 160px;
+  width: 160px;
+  border: 4px solid #3882f6;
   border-radius: 18px;
 }
 
@@ -127,8 +128,8 @@ section > h2 {
 
 .info-set p {
   padding-top: 18px;
-  width: 200px;
-  font-size: 22px;
+  width: 180px;
+  font-size: 18px;
   font-weight: 400;
   color: #76787a;
 }
@@ -138,7 +139,7 @@ section > h2 {
 }
 
 .quote p {
-  font-size: 48px;
+  font-size: 36px;
   font-style: italic;
   font-weight: 700;
 }
@@ -149,16 +150,18 @@ section > h2 {
 }
 
 .quote-content {
-  width: 60%;
-  margin: 150px 0;
+  width: 55%;
+  margin: 100px 0;
   padding-left: 20px;
+  padding-top: 10px;
+  line-height: 45px;
 }
 
 cite {
   display: block;
   text-align: right;
   padding-right: 70px;
-  font-size: 36px;
+  font-size: 24px;
   font-weight: 700;
 }
 
@@ -171,7 +174,7 @@ cite {
   width: 55%;
   background-color: #3882f6;
   margin: 120px 0;
-  padding: 70px 150px;
+  padding: 55px 120px;
   border-radius: 12px;
   display: flex;
   justify-content: space-between;
@@ -179,28 +182,28 @@ cite {
 
 .action-container h2 {
   color: #f9faf8;
-  font-size: 30px;
+  font-size: 24px;
   padding-bottom: 10px;
 }
 
 .action-container p {
   color: #e7e9ec;
-  font-size: 22px;
+  font-size: 18px;
 }
 
 .action-container button {
-  padding: 8px 50px;
+  padding: 0 35px;
   background-color: #3882f6;
   border-radius: 12px;
   color: #e5e7eb;
   border: 3px solid #e5e7eb;
-  font-size: 24px;
+  font-size: 18px;
 }
 
 footer {
   background-color: #1f2937;
   color: #e5e7eb;
   padding: 48px 0;
-  font-size: 22px;
+  font-size: 18px;
   text-align: center;
 }
