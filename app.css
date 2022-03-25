@@ -151,6 +151,7 @@ section > h2 {
 .quote-content {
   width: 60%;
   margin: 150px 0;
+  padding-left: 20px;
 }
 
 cite {
@@ -159,4 +160,47 @@ cite {
   padding-right: 70px;
   font-size: 36px;
   font-weight: 700;
+}
+
+.call-to-action {
+  display: flex;
+  justify-content: center;
+}
+
+.action-container {
+  width: 55%;
+  background-color: #3882f6;
+  margin: 120px 0;
+  padding: 70px 150px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.action-container h2 {
+  color: #f9faf8;
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+.action-container p {
+  color: #e7e9ec;
+  font-size: 22px;
+}
+
+.action-container button {
+  padding: 8px 50px;
+  background-color: #3882f6;
+  border-radius: 12px;
+  color: #e5e7eb;
+  border: 3px solid #e5e7eb;
+  font-size: 24px;
+}
+
+footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  padding: 48px 0;
+  font-size: 22px;
+  text-align: center;
 }
